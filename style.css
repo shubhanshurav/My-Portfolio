@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;  
+}
+.navbar{
+     background-color: rgb(0,0,0,0.5);
+}
+
+
+.nav-item a{
+     border-radius: 8px;
+     color:#fff !important;
+     padding: 10px !important;
+     margin: 20px;
+     font-family: 'Poppins', sans-serif;
+     font-size: medium;
+     transition: 0.6s;
+}
+
+.nav-item a:hover{
+     background-color: rgb(0, 0, 0);
+     c
+}
+
+.logo img{
+    height: 90px;           
+    width: 90px;
+    border-radius: 90%; 
+    /* padding: 5px; */
+    border: 4px solid rgba(255, 255, 255, 0.783);          
+}
+
+.para{
+     font-family: 'Poppins', sans-serif;  
+     padding: 18px;
+}
+.myname{
+     font-size: 20px;
+     color: rgb(235, 77, 77); 
+     font-style: italic;    
+}
+
+
+.skills{
+     text-align: center;
+     text-decoration: underline;
+}
+
+.side {
+     float: left;
+     width: 15%;
+     margin-top:10px;
+   }
+   
+   .middle {
+     margin-top:10px;
+     float: left;
+     width: 57%;
+   }
+   
+   /* Place text to the right */
+   .right {
+     float: right;
+     margin: 10px;
+   }
+   
+
+   .row{
+        padding: 22px;
+   }
+ 
+
+   /* Clear floats after the columns */
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+   
+   /* The bar container */
+   .bar-container {
+     width: 100%;
+     background-color: #ddd;
+     text-align: center;
+     color: white;
+     border-radius: 20px;
+   }
+   
+   /* Individual bars */
+   .bar-5 {width: 93%; height: 13px; background-color: #04AA6D;}
+   .bar-4 {width: 83%; height: 15px; background-color: #2196F3;}
+   .bar-3 {width: 43%; height: 15px; background-color: #00bcd4;}
+   .bar-2 {width: 33%; height: 15px; background-color: #ff9800;}
+   .bar-1 {width: 53%; height: 15px; background-color: #f44336;}
+   
+
+
+
+
+.contact{
+     padding-left : 15px;
+     margin:10px;
+}
+.contact input{
+     border-radius: 7px;
+     text-align: center;
+}
+.massage textarea{
+     border-radius: 7px;
+     text-align: center;
+}
+.massage{
+     padding-left : 19px;
+     margin:10px;
+}
+.BUTTON{
+     padding-left : 35px;
+     margin:10px;
+}
+.button1{
+     padding: 7px;
+     border-radius: 8px;
+     transition: 0.4s ease;
+}
+.button1:hover{
+     background-color: rgb(0,0,0,0.8);
+     color: #fff;
+}
+
+.fw-bold{
+     text-align: center;
+     text-decoration: underline; 
+     padding: 8px;
+}
+
+.icons{
+   padding: 20px;
+}
+
+.icons .socialicon{
+     padding-top: 9px;
+     height:30px;
+     width:30px;
+     text-decoration: none;
+     overflow: hidden;
+     color:rgb(21, 21, 235);
+     background-color: white;
+             
+}
+.fa:hover {
+     opacity: 0.7;
+}
+
+.fa-facebook {
+     background: #3B5998;
+     color: white;
+     border-radius:5px;
+     height:20px;
+     width:20px;
+}
+.fa-github {
+     background: #3B5998;
+     color: white;
+     border-radius:5px;
+     height:20px;
+     width:20px;
+ }
+.fa-instagram {
+     background: #3B5998;
+     color: white;
+     border-radius:5px;
+     height:20px;
+     width:20px;
+}
+.fa-linkedin {
+     background: #3B5998;
+     color: white;
+     border-radius:5px;
+     height:20px;
+     width:20px;
+}
+
+.card-body{
+     border: 1px solid black;      
+     margin: 15px; 
+     border-radius: 15px;
+     transition: 0.4s ease;
+}
+
+.modal-content{
+     border-radius: 15px;
+     border-radius: 10px;
+}
+
+.modal-dialog{
+     background-color: #272727 !important;
+     border-radius: 10px;
+     padding: 4px;
+     
+}
+.modal-body{
+}
+
+.p-5{
+     padding: 0.6rem !important;
+}
+.mb-0{
+     padding: 1rem !important;
+}
+
+footer{
+     height: 100%;
+     text-align: center;
+     font-size: 14px;
+     color: #fff;
+     clear: both;
+     padding: 26px 0px;
+     line-height: 23px;
+     background-color: #272727;           
+}
+
+
+
+.icon-bar {
+     position: fixed;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+   }
+   
+   .icon-bar a {
+     display: block;
+     text-align: center;
+     padding: 16px;
+     transition: all 0.3s ease;
+     color: white;
+     font-size: 20px;
+   }
+   
+   .icon-bar a:hover {
+     background-color:rgb(16, 15, 15);
+   }
+   
+   .fa:hover {
+     opacity: 0.7;
+   }
+   
+   .facebook {
+     background:#3B5998;
+     color: white;
+   }
+
+   .fa-github {
+     background: #000;
+     color: rgb(255, 249, 249);
+   }
+   
+   .github {
+     background: rgb(68, 58, 58);
+     color: rgb(255, 249, 249);
+   }
+   
+   .fa-instagram {
+     background: #870626;
+     color: rgb(247, 244, 244);
+   }
+
+   .instagram {
+     background:darkred;
+     color: rgb(255, 255, 255);
+   }
+
+   
+   .linkedin {
+     background: #045378;
+     color: white;
+   }
+   
+   .youtube {
+     background: #bb0000;
+     color: white;
+   }
+   
+   .content {
+     margin-left: 75px;
+     font-size: 30px;
+   }
